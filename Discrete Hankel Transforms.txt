@@ -1,0 +1,7 @@
+gsl_dht * gsl_dht_alloc(size_t size)
+int gsl_dht_init(gsl_dht * t, double nu, double xmax)
+gsl_dht * gsl_dht_new(size_t size, double nu, double xmax)
+void gsl_dht_free(gsl_dht * t)
+int gsl_dht_apply(const gsl_dht * t, double * f_in, double * f_out)
+double gsl_dht_x_sample(const gsl_dht * t, int n)
+double gsl_dht_k_sample(const gsl_dht * t, int n)
